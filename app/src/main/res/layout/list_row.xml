@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/card_view_id"
+    app:cardElevation="25dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/edit_text_border"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image_id"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/baseline_person_24"
+            android:background="@color/purple_200"
+            app:shapeAppearanceOverlay="@style/circleImageView" />
+
+
+        <TextView
+            android:id="@+id/view_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            android:layout_weight="0.9"
+
+            />
+
+        <ImageButton
+            android:id="@+id/delete_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/baseline_delete_outline_24"
+            android:background="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="85dp"
+        >
+        <TextView
+            android:id="@+id/view_email_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#7A7B76"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
