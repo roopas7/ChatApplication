@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">ChatApplication</string>
+    <string name="app_name">Messaging Application</string>
     <string name="user_login">User Login</string>
 </resources>

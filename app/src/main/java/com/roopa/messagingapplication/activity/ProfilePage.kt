@@ -1,4 +1,4 @@
-package com.example.chatapplication.activity
+package com.roopa.messagingapplication.activity
 
 
 import android.annotation.SuppressLint
@@ -7,13 +7,11 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.TextView
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.net.toUri
 import com.bumptech.glide.Glide
-import com.example.chatapplication.R
-import com.example.chatapplication.model.UserData
+import com.roopa.messagingapplication.R
+import com.roopa.messagingapplication.model.UserData
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.firebase.auth.FirebaseAuth

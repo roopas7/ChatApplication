@@ -1,4 +1,4 @@
-package com.example.chatapplication.model
+package com.roopa.messagingapplication.model
 
 class UserData {
     var email: String? = null

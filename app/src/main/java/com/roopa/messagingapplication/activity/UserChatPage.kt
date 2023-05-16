@@ -1,6 +1,5 @@
-package com.example.chatapplication.activity
+package com.roopa.messagingapplication.activity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
@@ -9,9 +8,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import com.example.chatapplication.R
-import com.example.chatapplication.adapter.ChatAdapter
-import com.example.chatapplication.model.Message
+import com.roopa.messagingapplication.adapter.ChatAdapter
+import com.roopa.messagingapplication.model.Message
+import com.roopa.messagingapplication.R
+
 
 
 class UserChatPage : AppCompatActivity() {

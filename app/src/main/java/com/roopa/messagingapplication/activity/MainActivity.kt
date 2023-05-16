@@ -1,21 +1,15 @@
-package com.example.chatapplication.activity
+package com.roopa.messagingapplication.activity
 
 
 import android.content.Intent
-import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.webkit.WebView
-import android.webkit.WebViewClient
-import android.widget.ProgressBar
-import android.widget.Toast
-import com.example.chatapplication.databinding.ActivityMainBinding
+import com.roopa.messagingapplication.databinding.ActivityMainBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import com.google.firebase.database.ktx.getValue
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

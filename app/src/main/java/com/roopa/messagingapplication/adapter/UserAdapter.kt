@@ -1,9 +1,8 @@
-package com.example.chatapplication.adapter
+package com.roopa.messagingapplication.adapter
 
 
 import android.content.Context
 import android.content.Intent
-import android.view.ContextMenu
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.GONE
@@ -12,10 +11,11 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.chatapplication.activity.UserChatPage
-import com.example.chatapplication.model.UserData
+import com.roopa.messagingapplication.activity.UserChatPage
+import com.roopa.messagingapplication.model.UserData
 import com.google.firebase.database.*
-import com.example.chatapplication.R
+import com.roopa.messagingapplication.R
+
 
 
 class UserAdapter(val context: Context, var arrayList:HashMap<String, UserData>) : RecyclerView.Adapter<UserAdapter.ViewHolder>() {

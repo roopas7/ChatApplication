@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.chatapplication'
+    namespace 'com.roopa.messagingapplication'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.chatapplication"
+        applicationId "com.roopa.messagingapplication"
         minSdk 24
         targetSdk 33
         versionCode 1

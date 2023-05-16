@@ -1,12 +1,11 @@
-package com.example.chatapplication.activity
+package com.roopa.messagingapplication.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.chatapplication.R
-import com.example.chatapplication.databinding.ActivitySignUpBinding
-import com.example.chatapplication.model.UserData
+import com.roopa.messagingapplication.databinding.ActivitySignUpBinding
+import com.roopa.messagingapplication.model.UserData
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth

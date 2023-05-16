@@ -1,4 +1,4 @@
-package com.example.chatapplication.activity
+package com.roopa.messagingapplication.activity
 
 
 
@@ -6,22 +6,18 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.provider.MediaStore
-import android.widget.Toast
-import android.widget.Toolbar
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.example.chatapplication.model.UserData
+import com.roopa.messagingapplication.model.UserData
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.database.ktx.getValue
-import com.example.chatapplication.R
-import com.example.chatapplication.RealPathUtil
-import com.example.chatapplication.adapter.UserAdapter
+import com.roopa.messagingapplication.RealPathUtil
+import com.roopa.messagingapplication.adapter.UserAdapter
+import com.roopa.messagingapplication.R
+
 
 
 class UserListPage : AppCompatActivity() {

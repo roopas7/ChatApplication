@@ -1,4 +1,4 @@
-package com.example.chatapplication
+package com.roopa.messagingapplication
 
 import org.junit.Test
 
