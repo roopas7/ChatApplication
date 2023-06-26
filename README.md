@@ -1,4 +1,4 @@
-Welcome to Chat App! This application gives users the opportunity to connect and exchange messages with each other. It is designed to be user-friendly and offers a seamless messaging experience.
+#Welcome to Chat App! This application gives users the opportunity to connect and exchange messages with each other. It is designed to be user-friendly and offers a seamless messaging #experience.
 
 Features
 User Registration: Users can create an account and register with their email address.
@@ -7,6 +7,8 @@ User Profile: Users can update their profile information and profile picture.
 Contact List: View a list of all the users registered on the app.
 Real-time Messaging: Users can send and receive messages in real-time.
 Offline Support: Messages are synchronized and stored locally for offline access.
+
+
 Technologies Used
 Language: Kotlin
 Architecture Components: Android Jetpack (View Binding, LiveData, Room)
